@@ -14,3 +14,8 @@ ports:
     onOpen: open-browser
   - port: 5005
     onOpen: ignore
+
+vscode:
+  extensions:
+    - vscjava.vscode-java-pack
+    
