@@ -1,3 +1,12 @@
 image: gitpod/workspace-java-17:2022-10-10-01-40-34
 # see: https://hub.docker.com/r/gitpod/workspace-java-17/tags
 
+# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+tasks:
+  - init: echo 'init script' # runs during prebuild
+    command: echo 'start script'
+
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 3000
+    onOpen: open-preview
