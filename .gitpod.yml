@@ -1,5 +1,7 @@
-image: gitpod/workspace-java-17:2022-10-10-01-40-34
+#image: gitpod/workspace-java-17:2022-10-10-01-40-34
 # see: https://hub.docker.com/r/gitpod/workspace-java-17/tags
+image:
+  file: .gitpod.Dockerfile
 
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
